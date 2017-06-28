@@ -9,11 +9,11 @@ go get -u github.com/SentimensRG/sigctx
 
 ## usage
 
-```go 
+```go
 ctx := sigctx.New()  // returns a regular context.Context
 
 // With this simple pattern, your goroutines are guaranteed to terminate correctly
-ctx, cancel := ctx.WithCancel(ctx)
+ctx, cancel := context.WithCancel(ctx)
 go someBlockingFunction(ctx)
 defer cancel()
 
