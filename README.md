@@ -1,6 +1,6 @@
 # DEPRECATION WARNING
 
-`sigctx` is now part of [https://github.com/SentimensRG/ctx](SentimensRG/ctx).
+`sigctx` is now part of [SentimensRG/ctx](https://github.com/SentimensRG/ctx).
 
 This repository will no longer receive updates.
 
