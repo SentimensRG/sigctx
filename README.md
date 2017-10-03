@@ -1,3 +1,9 @@
+# DEPRECATION WARNING
+
+`sigctx` is now part of [https://github.com/SentimensRG/ctx](SentimensRG/ctx).
+
+This repository will no longer receive updates.
+
 # sigctx
 Go contexts for graceful shutdown
 
